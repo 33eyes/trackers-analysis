@@ -1,0 +1,8 @@
+# Introduction  
+
+Many of us use digital health trackers to keep an eye on our health and steer ourselves toward healthier habits. These trackers come in many shapes and sizes, from an app on your smartphone/smartwatch and watch-style wearable trackers to all kinds of wearables and other health monitoring devices. They can track a wide variety of health data points, like steps, activity & exercise, diet, sleep, weight, heart rate, blood pressure and more. As diverse as these apps and devices can be, they all essentially do the same thing: capture data about you. Typically, they have a dashboard that converts that data into nice-looking displays of your daily activity, stats and trends to provide real-time feedback on your health journey and give you a sense of your overall health.  
+This is great for overall health tracking and for making healthier everyday choices. However, such dashboards alone cannot help you answer more nuanced and personalized questions about your health, like how your diet impacts your seasonal allergy symptoms, what type of exercise helps you feel your best, or what are your likely migraine triggers. However, you can use the underlying data from these health trackers to explore such questions. 
+
+These trackers typically offer a way for you to download the data. For example, [here are the instructions for Fitbit data download](https://help.fitbit.com/articles/en_US/Help_article/1133.htm).  
+
+This guide shows how you can use health tracker data to answer your own health questions that go beyond the basic dashboards and charts.
