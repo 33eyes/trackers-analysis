@@ -25,7 +25,35 @@ An important pitfall in this step is accidentally limiting yourself to only rese
 - What are the potential ways you could use the knowledge you are trying to learn? How will it help you? Can it help others?  
 - Are there pre-existing answers or research done to answer your question? If yes, why are those answers or research not enough for you? What can you add to the existing answers?  
 
-#### Example research goal  
+#### Example: my research goal  
 My research goal is to understand better how my wellness habits affect how well I feel.  
-This research goal is intentionally broad, which gives me lots of room to refine it after I review the potential data sources available to me.
-Throughout this guide, I will use this research goal as an example.
+This research goal is intentionally broad, which gives me lots of room to refine it after I review the potential data sources available to me.  
+Throughout this guide, I will use this research goal as an example.  
+
+### Review potential data sources  
+Now that you have a general research goal, consider your potential data sources. What data do you need for your research goal? Let your research goal guide you to the relevant data, and not vice versa.  
+
+#### Guiding questions for this data review:
+- What kind of data is available?  
+- What is the format of the data?  
+- For time series data, what are the frequency and date ranges of the data?  
+- Does the data appear to have lots of missing values?  
+- Is this data relevant to the research goal? How can it help investigate the research goal?  
+- Is this data enough for the research goal? If not, what information is missing?  
+
+#### Review your health tracker data download  
+One obvious potential data source for your health tracker data research project is, of course, your health tracker data download. However, it might not be enough to meet your research goal. In that case, you need to consider additional data sources.  
+
+#### Example: reviewing my Fitbit data download  
+In this example, I'll use my own Fitbit tracker data download and my research goal. If you use a Fitbit tracker, you can download your Fitbit data using [these instructions](https://help.fitbit.com/articles/en_US/Help_article/1133.htm) and follow along the steps in [this notebook](https://github.com/33eyes/trackers-analysis/blob/main/01_data_review.ipynb).  
+My research goal is to understand better how my wellness habits affect how well I feel. In this data review step, I want to see if my Fitbit tracker data can help me investigate my research goal.  
+
+I have a basic Fitbit tracker, the Inspire HR, and a free Fitbit account. My data download contains the following data:  
+- Physical Activity  
+- Sleep  
+- Menstrual Health  
+
+Your health tracker data may be very different, of course.  
+
+
+
