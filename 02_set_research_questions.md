@@ -55,5 +55,18 @@ I have a basic Fitbit tracker, the Inspire HR, and a free Fitbit account. My dat
 
 Your health tracker data may be very different, of course.  
 
+Reviewing my data download in [this notebook](https://github.com/33eyes/trackers-analysis/blob/main/01_data_review.ipynb), I've uncovered the following about the data:  
+- The documentation provided in the Fitbit data download is incomplete, but it's likely possible to find the missing information on community forums and through Fitbit support.  
+- Some datasets were empty or were for measurements I know I didn't track in Fitbit. I excluded such datasets.  
+- All relevant data is either time series or time ranges, as expected.  
+- The relevant datasets contain lots of timestamped data, but there may be irregular gaps between timestamps.  
+- I found roughly the following kinds of data:  
+  - Various heart rate measurements  
+  - Activity data: steps, distance, broad categories of activity level  
+  - Computed fitness data: demographic VO2 max  
+  - Sleep data  
+  - Breathing rate measurements  
+  - Menstrual cycles time ranges  
 
+I've summarized my data review findings and notes in [this spreadsheet](https://github.com/33eyes/trackers-analysis/blob/main/fitbit_tracker_data_review.csv). 
 
