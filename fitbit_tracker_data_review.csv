@@ -1,0 +1,20 @@
+Fitbit data folder,measurement type,computed or measured?,records frequency,"potential role in analyses for my research goal (explanatory, response or control variable)",notes,missing documentation,reference
+Physical Activity,sedentary_minutes,computed,daily,explanatory,looks like an aggregated number of minutes per day,,
+Physical Activity,lightly_active_minutes,computed,daily,explanatory,looks like an aggregated number of minutes per day,,
+Physical Activity,moderately_active_minutes,computed,daily,explanatory,looks like an aggregated number of minutes per day,,
+Physical Activity,very_active_minutes,computed,daily,explanatory,looks like an aggregated number of minutes per day,,
+Physical Activity,steps,measured,"1 min intervals, can have gaps between timestamps",explanatory,steps count,,
+Physical Activity,distance,measured,"1 min intervals, can have gaps between timestamps",explanatory,,unknown units,
+Physical Activity,exercise,measured,"uneven intervals <1 min, can have gaps between timestamps",explanatory,"A list of dictionaries containing lots of activity data that overlaps with other data files, like steps, heart rate, etc. Has broad exercise types and measurements during exercise.",,
+Physical Activity,time_in_heart_rate_zones,computed,daily,explanatory,,unknown how to interpret the zones,
+Physical Activity,heart_rate,measured,"uneven intervals <1 min, can have gaps between timestamps","explanatory, response",BPM + a confidence score,unknown how to interpret the confidence score,"https://my.clevelandclinic.org/health/diagnostics/17402-pulse--heart-rate , https://www.health.harvard.edu/heart-health/what-your-heart-rate-is-telling-you"
+Physical Activity,resting_heart_rate,measured,daily,response,measurement and error value,,"https://www.mayoclinic.org/healthy-lifestyle/fitness/expert-answers/heart-rate/faq-20057979#:~:text=A%20normal%20resting%20heart%20rate%20for%20adults%20ranges%20from%2060,to%2040%20beats%20per%20minute."
+Physical Activity,demographic_vo2_max,computed,daily,response,contains two VO2 max measurements and their corresponding error values,unknown how to interpret the two measurements,https://health.clevelandclinic.org/what-is-vo2-max-and-how-to-calculate-it/
+Sleep,sleep_score,computed,"Per sleep log entry, approx daily but could be more frequent","explanatory, response",Various sleep scores and sleep resting heart rate per sleep log entry (i.e. per sleep episode).,unknown how the scores were computed,
+Sleep,sleep,measured,"Per sleep log entry, approx daily but could be more frequent; per sleep phase","explanatory, response","Sleep log details, including timestamps for sleep phases",,
+Sleep,Respiratory Rate Summary,computed,Per sleep log entry,response,"Overall and per sleep phase sleep breathing rates, standard deviations and noise",,
+Sleep,Heart Rate Variability Histogram,computed,Per sleep log / daily,response,Histogram bucket values,unknown how to interpret bucket values,
+Sleep,Heart Rate Variability Details,computed,Per 5 min intervals,response,"Daily sleep heart rate variability values: root mean square of successive differences, coverage, low frequency, high frequency",unknown how to interpret most variables,"https://my.clevelandclinic.org/health/symptoms/21773-heart-rate-variability-hrv#:~:text=What%20is%20heart%20rate%20variability,undetectable%20except%20with%20specialized%20devices."
+Sleep,Daily Respiratory Rate Summary,computed,Daily,response,Daily sleep respiratory rate,,
+Sleep,Daily Heart Rate Variability Summary,computed,Daily,response,"Daily sleep heart rate variability values: root mean square of successive differences, non-REM sleep heart rate, entropy.",,
+Menstrual Health,menstrual_health_cycles,computed + manual entry,"Records of time ranges, approx monthly",control,Records of time ranges for various phases of menstrual cycles,,
