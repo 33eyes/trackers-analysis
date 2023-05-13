@@ -68,5 +68,18 @@ Reviewing my data download in [this notebook](https://github.com/33eyes/trackers
   - Breathing rate measurements  
   - Menstrual cycles time ranges  
 
-I've summarized my data review findings and notes in [this spreadsheet](https://github.com/33eyes/trackers-analysis/blob/main/fitbit_tracker_data_review.csv). 
+I've summarized my data review findings and notes in [this spreadsheet](https://github.com/33eyes/trackers-analysis/blob/main/fitbit_tracker_data_review.csv).  
 
+#### Assess how the health tracker data can be used in analyses  
+
+In my [Fitbit data review spreadsheet](https://github.com/33eyes/trackers-analysis/blob/main/fitbit_tracker_data_review.csv) above, I assigned a potential role in analyses to each data measurement type. At a high level, the options for a role that data can play in analyses are explanatory, response or control variables.  
+
+Here's what these roles mean.  
+- ##### Response variable  
+  The response variable is the data that researchers are trying to explain or predict in their research project. Typically there is only one response variable in a data model. However, there can be more than one data model in a research project, modeling different response variables, or a new response variable can be constructed by combining multiple response variables.  
+- ##### Explanatory variable  
+  The explanatory variables are the data researchers use to explain or predict the response variable in their research project. For explanatory analyses, these are the variables whose effect on the response the researchers are trying to study and explain. There can be one or more explanatory variables in a data model.  
+- ##### Control variable  
+  Control variables are the data that likely affects other variables in a research project, but the researchers are not interested in their effect on the response variable in this project. For explanatory analyses, these control variables need to be included in the data model so that their impact on the response data does not confuse the explanatory variables' effects. For prediction models, there is no significant distinction between explanatory and control variables: they both are inputs to a data model that makes predictions.  
+  
+Whether particular data is an explanatory, response or control variable in your research project depends on your research goal/question.  
