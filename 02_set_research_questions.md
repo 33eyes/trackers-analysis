@@ -103,4 +103,17 @@ I could also use more data for my explanatory variables. Fitbit steps, exercise 
 
 I could also improve on my control variables. I am guessing that weather and other environmental factors can affect both my wellness habits and how well I feel. These factors could confound my research findings if I don't account for them in my data model.  
 
-So, in conclusion, I need to gather more data.
+So, in conclusion, I need to gather more data.  
+
+#### Consider supplemental data sources  
+If your health tracker data is not enough to investigate your research goals, then it is a good idea to consider additional data sources.  
+Where can you get the additional data to supplement your health tracker data? Here are some options:  
+- Open source datasets and publicly available data  
+- Combining data from other trackers, e.g., mood or productivity tracker app data  
+- Tracking the data yourself  
+  - This can be as simple as a spreadsheet, or even pen and paper, where you enter daily values for a couple of months.  
+  - This approach is more manual and cumbersome, but it is also the most customizable. You can start a spreadsheet that tracks your daily answers to any question you want.  
+  - You can use Google Forms to set up your own custom personal tracker and fill it out on your smartphone. For details on how to set it up, see the example below.  
+
+#### Example: potential supplemental data sources  
+
