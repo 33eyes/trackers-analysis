@@ -85,8 +85,12 @@ Whether particular data is an explanatory, response or control variable in your 
 
 #### Example: assessing how my Fitbit data can be used my research project  
 I have the following broad research goal: to understand better how my wellness habits affect how well I feel.  
+
 In my Fitbit data review file, I've marked physical activity data that captures my walking and exercise habits (e.g., steps, distance, activity level, exercise, etc.) as potential **explanatory variables** in my research project. This data reflects some of my wellness habits, and in this research project, I want to use them to see if they can explain or predict how well I feel.  
+
 I've marked physical health measures like resting heart rate, VO2 max, sleep quality, sleep breathing rate and sleep heart variability as potential **response variables** because they are indicators of physical health and wellness. These variables measure my overall physical wellness and, presumably, how well I feel, which is what I am trying to explain and predict in my research project.  
+
 I've marked menstrual cycle data as **control variables**. Menstrual cycles do not reflect any wellness habits that I can control, so I am not interested in their effect in this research project. However, menstrual cycles likely affect how well I feel and hence should be included in my data model to avoid conflating their impact with the explanatory variables.  
+
 I've marked some data as both explanatory and response variables. This is because, for some variables, I am so far unclear on how I might use them in my research, e.g., the raw heart rate data. Or it is because I plan to use some parts of that data as explanatory and other parts as response, e.g., sleep times are habits I can control and hence consider explanatory, while sleep quality seems more like a response variable candidate in my research project.  
 
