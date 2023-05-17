@@ -113,7 +113,24 @@ Where can you get the additional data to supplement your health tracker data? He
 - Tracking the data yourself  
   - This can be as simple as a spreadsheet, or even pen and paper, where you enter daily values for a couple of months.  
   - This approach is more manual and cumbersome, but it is also the most customizable. You can start a spreadsheet that tracks your daily answers to any question you want.  
-  - You can use Google Forms to set up your own custom personal tracker and fill it out on your smartphone. For details on how to set it up, see the example below.  
+  - You can use Google Forms to set up your own custom personal tracker and fill it out on your smartphone.  
 
 >#### Example: potential supplemental data sources  
+>I am missing the following data needed for my research goal:  
+>analysis role | the needed supplemental data  
+>--- | ---  
+>response | data that captures my mood or how I feel  
+>explanatory | more detailed qualitative data on exercise, e.g., the type of exercise  
+>explanatory | hobbies, work habits, other life events and stressors  
+>control | weather  
+>control | environmental factors  
+>
+>
+>I can collect the weather and environmental factors like air quality from publicly available data sources. The remaining missing pieces are all based on my individual behaviors and subjective assessments, and the only way to collect data on them is to track them somehow.  
+>
+>I could try to find existing tracker apps to collect that data, but because I am interested in so many different kinds of data, that would mean finding and using a bunch of different apps, which can become unwieldy. In this case I think it is easier to create one solution to capture all the data I need rather than use a long list of tracker apps. Doing so also gives me the benefit of setting up my tracker however I want and not being limited by what is allowed in a given app.  
+
+#### Collect supplemental data  
+
+##### How to make your own personal tracker for anything you want with Google Forms  
 
