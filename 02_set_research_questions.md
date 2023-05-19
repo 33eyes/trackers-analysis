@@ -139,4 +139,13 @@ To track data yourself, all you need is a set of questions to ask yourself and a
 For many people, the easiest way to do it would be by tracking the data on their smartphone. The instructions below describe one way you could set up your own custom data tracker to use on your phone. 
 
 ##### How to make your own personal tracker for anything you want with Google Forms  
+These instructions refer to Google Sheets and Forms as of May 2023.  
+
+1. Start a new spreadsheet in Google Sheets  
+1. Create a new form in it  
+   - In the top navigation bar of the spreadsheet, go to Tools > Create a new form  
+   - This form will contain your tracker questions
+
+>###### Example: new Google form  
+>![New Google form image]('img/tracker_qq_setup_illustr_1.png')  
 
