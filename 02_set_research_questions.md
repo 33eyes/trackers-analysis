@@ -128,9 +128,15 @@ Where can you get the additional data to supplement your health tracker data? He
 >
 >I can collect the weather and environmental factors like air quality from publicly available data sources. The remaining missing pieces are all based on my individual behaviors and subjective assessments, and the only way to collect data on them is to track them somehow.  
 >
->I could try to find existing tracker apps to collect that data, but because I am interested in so many different kinds of data, that would mean finding and using a bunch of different apps, which can become unwieldy. In this case I think it is easier to create one solution to capture all the data I need rather than use a long list of tracker apps. Doing so also gives me the benefit of setting up my tracker however I want and not being limited by what is allowed in a given app.  
+>I could try to find existing tracker apps to collect that data, but because I am interested in many different kinds of data, that would mean finding and using a bunch of different apps, which can become unwieldy. In this case I think it is easier to create one solution to capture all the data I need rather than use a long list of tracker apps. Doing so also gives me the benefit of setting up my tracker however I want and not being limited by what is allowed in a given app.  
 
-#### Collect supplemental data  
+#### Collect supplemental data   
+To collect supplemental data that is publicly available or open source, you could search for it online and follow data access instructions.  
+
+To collect data from other tracker apps, please refer to their documentation for instructions.   
+
+To track data yourself, all you need is a set of questions to ask yourself and a way to record your responses on a regular basis. This can be done in many ways, for example, in a spreadsheet or even with pen and paper.  
+For many people, the easiest way to do it would be by tracking the data on their smartphone. The instructions below describe one way you could set up your own custom data tracker to use on your phone. 
 
 ##### How to make your own personal tracker for anything you want with Google Forms  
 
