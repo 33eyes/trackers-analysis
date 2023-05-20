@@ -147,7 +147,5 @@ These instructions refer to Google Sheets and Forms as of May 2023.
    - This form will contain your tracker questions
 
 >###### Example: new Google form   
->[<img src="./img/tracker_qq_setup_illustr_1.png" width="100" />](img/tracker_qq_setup_illustr_1.png)
-
-><img src="./img/tracker_qq_setup_illustr_1.png" width="100" />
+><img src="./img/tracker_qq_setup_illustr_1.png" width="70%" />
 
