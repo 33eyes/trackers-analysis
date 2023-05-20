@@ -146,6 +146,8 @@ These instructions refer to Google Sheets and Forms as of May 2023.
    - In the top navigation bar of the spreadsheet, go to Tools > Create a new form  
    - This form will contain your tracker questions
 
->###### Example: new Google form  
->![New Google form image](img/tracker_qq_setup_illustr_1.png | width=100)  
+>###### Example: new Google form   
+>[<img src="./img/tracker_qq_setup_illustr_1.png" width="100" />](img/tracker_qq_setup_illustr_1.png)
+
+><img src="./img/tracker_qq_setup_illustr_1.png" width="100" />
 
