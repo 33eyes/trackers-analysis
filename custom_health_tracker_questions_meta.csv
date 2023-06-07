@@ -1,0 +1,4 @@
+analysis role,needed supplemental data,question,answer format,survey frequency,missing values meaning,question priority,questionnaire organization
+meta,"Notes or details on survey responses, or anything related to this survey part. Notes on changes to survey design go here as well.",Notes,free text,as needed,non-response,1,Include in all questionnaires
+ETL,"Manual timestamp for overriding the default survey entry timestamp. This is needed for entering survey values for a previous date, e.g. if I forgot to enter tracker values yesterday and would like to enter them today under yesterday's date.",Manual timestamp,datetime field,as needed,use the default survey timestamp,1,Include in all questionnaires
+ETL,Survey design change flag,Was there a survey design change today?,a single checkbox for yes,as needed,no survey design changes were made today,1,Include in all questionnaires

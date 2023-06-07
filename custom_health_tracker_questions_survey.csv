@@ -1,0 +1,87 @@
+analysis role,needed supplemental data,question,answer format,survey frequency,missing values meaning,question priority,questionnaire organization
+response,Data that captures overall how well I feel physically,How do you feel overall physically?,scale,one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean non-response.,1,Physical health tracker
+response,Data that captures any symptoms that I want to track,"Symptoms list:
+- fatigue
+- outdoor allergies
+- migraine
+- other with write-in options","scale for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,2,Physical health tracker
+response,Data that captures how I feel mentally,How do you feel overall mentally?,scale,one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean non-response.,1,Mental health tracker
+response,Data that captures my emotions,"Emotions list:
+- happy
+- sad
+- anxious
+- inspired
+- other with write-in options","checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,2,Mental health tracker
+explanatory,"More detailed qualitative data on exercise, e.g., the type of exercise","Exercise list:
+- long walk /hike
+- running
+- yoga
+- weight lifting
+- other with write-in options","checkbox for each, with text entry for write-in option",daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Activity tracker
+explanatory,More detailed qualitative data on mental health activities,"Mental health activities list:
+- journalling
+- meditation
+- other with write-in options","checkbox for each, with text entry for write-in option",daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Activity tracker
+explanatory,Work habits,"Work patterns list:
+- bad work day
+- good work day
+- deep work
+- extra hours
+- frequent interruptions
+- strained eyes from screen
+- in-person meeting
+- virtual meeting
+- work accomplishment
+- other with write-in options","checkbox for each, with text entry for write-in option",daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Activity tracker
+explanatory,Hobbies,"Hobbies list:
+- DIY
+- coding / data side projects
+- art
+- reading
+- movies
+- other with write-in options","checkbox for each, with text entry for write-in option",daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Activity tracker
+explanatory,Other life events and stressors,"Other activities & events list:
+- dog-sitting
+- travel
+- cleaning
+- grocery shopping
+- other with write-in options","checkbox for each, with text entry for write-in option",daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Activity tracker
+control,Weather,Temperature outside,numeric,daily,non-response,2,Environment tracker
+control,Weather,"Weather conditions list:
+- sunny
+- cloudy
+- windy
+- rain/snow
+- smoke
+- other with write-in option","checkbox for each, with text entry for write-in option",daily,no,1,Environment tracker
+control,Weather,Humidity outside,numeric,daily,non-response,2,Environment tracker
+control,Weather,Pressure,numeric,daily,non-response,1,Environment tracker
+control,Environmental factors,Humidity inside,numeric,daily,non-response,1,Environment tracker
+control,Environmental factors,Pollen count,numeric,daily,non-response,1,Environment tracker
+control,Environmental factors,List of pollen varieties,"checkbox for each, with text entry for write-in option",daily,no,1,Environment tracker
+control,Environmental factors,Air quality index,numeric,daily,non-response,1,Environment tracker
+control,Environmental factors,List of top air quality triggers,"checkbox for each, with text entry for write-in option",daily,no,1,Environment tracker
+control,Environmental factors,"List of environments I'm in today:
+- home - windows closed
+- home - windows open
+- outdoors for over 1 hour
+- office building
+- pet store
+- other with write-in options","checkbox for each, with text entry for write-in option",daily,no,1,Environment tracker
+control,Environmental factors,Wearing a mask outdoors?,checkbox,daily,no,1,Environment tracker
+control,Environmental factors,Wearing a mask indoors?,checkbox,daily,no,1,Environment tracker
+explanatory,Water intake,"Water intake scale:
+- a lot less than 8 glasses
+- less
+- 8 glasses
+- more
+- a lot more",ordinal scale,daily,non-response,1,Water tracker
+explanatory,Diet,Carbs categories list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Veggies list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Proteins list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Dairy list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Fruit & berries list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Spices & condiments list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Drinks list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Snacks list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
+explanatory,Diet,Prepared foods & dining out list,"checkbox for each, with text entry for write-in option",one or more times daily,These values are meant to be aggregated to a day. Missing values when aggregated to a day mean no.,1,Diet tracker
