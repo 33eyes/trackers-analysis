@@ -145,6 +145,7 @@ These instructions refer to Google Sheets and Forms as of May 2023.
 1. Create a new form in it  
    - In the top navigation bar of the spreadsheet, go to Tools > Create a new form  
    - This form will contain your tracker questions  
+   <br>  
 
    > #### Example: new Google form   
    ><img src="./img/tracker_qq_setup_illustr_1.png" width="70%" />  
@@ -171,6 +172,6 @@ These instructions refer to Google Sheets and Forms as of May 2023.
    > To design my questionnaire, I can start with [my table of the needed supplemental data](https://github.com/33eyes/trackers-analysis/blob/main/02_set_research_questions.md#example-potential-supplemental-data-sources) and build on it by working through the guiding questions above.  
 I did this work in a spreadsheet and split it into [the main survey questions on which I want to collect data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_survey.csv) and [additional questions to help me manage that data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_meta.csv).   
 In those spreadsheets, I went through each of the general needed supplemental data categories and wrote down the questions I want to ask, the format for the answers, how often I'd want to answer those questions, and what it would mean if I didn't answer a question. After that, I grouped the questions that would be easier to answer together into separate trackers (see the last column in the spreadsheets), based on related topics and survey frequency. After that, for each tracker group, I ranked the importance of each question: the most important questions that must be answered as often as possible are ranked 1, and questions that are nice-to-have or optional get ranks of 2 or more.  
-<br>
-Having drafted out my questionnaire design in those spreadsheets, I now know what questions I want to ask, how to format them, how to organize them into tracker surveys, and which questions I should put at the top of the tracker surveys (based on question rank). I am now ready to go ahead and make those trackers in Google Forms.  
+> <br>  
+>Having drafted out my questionnaire design in those spreadsheets, I now know what questions I want to ask, how to format them, how to organize them into tracker surveys, and which questions I should put at the top of the tracker surveys (based on question rank). I am now ready to go ahead and make those trackers in Google Forms.  
 
