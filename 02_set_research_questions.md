@@ -41,7 +41,7 @@ Now that you have a general research goal, consider your potential data sources.
 - Is this data relevant to the research goal? How can it help investigate the research goal?  
 - Is this data enough for the research goal? If not, what information is missing?  
 
-#### Review your health tracker data download  
+#### 2.1 Review your health tracker data download  
 One obvious potential data source for your health tracker data research project is, of course, your health tracker data download. However, it might not be enough to meet your research goal. In that case, you need to consider additional data sources.  
 
 >#### Example: reviewing my Fitbit data download  
@@ -70,7 +70,7 @@ One obvious potential data source for your health tracker data research project 
 >
 >I've summarized my data review findings and notes in [this spreadsheet](https://github.com/33eyes/trackers-analysis/blob/main/fitbit_tracker_data_review.csv).  
 
-#### Assess how the health tracker data can be used in analyses  
+#### 2.2 Assess how the health tracker data can be used in analyses  
 In my [Fitbit data review spreadsheet](https://github.com/33eyes/trackers-analysis/blob/main/fitbit_tracker_data_review.csv) above, I assigned a potential role in analyses to each data measurement type. At a high level, the options for a role that data can play in analyses are explanatory, response or control variables.  
 
 Here's what these roles mean.  
@@ -105,7 +105,7 @@ Whether particular data is an explanatory, response or control variable in your 
 >
 >So, in conclusion, I need to gather more data.  
 
-#### Consider supplemental data sources  
+#### 2.3 Consider supplemental data sources  
 If your health tracker data is not enough to investigate your research goals, then it is a good idea to consider additional data sources.  
 Where can you get the additional data to supplement your health tracker data? Here are some options:  
 - Open source datasets and publicly available data  
@@ -130,7 +130,7 @@ Where can you get the additional data to supplement your health tracker data? He
 >
 >I could try to find existing tracker apps to collect that data, but because I am interested in many different kinds of data, that would mean finding and using a bunch of different apps, which can become unwieldy. In this case I think it is easier to create one solution to capture all the data I need rather than use a long list of tracker apps. Doing so also gives me the benefit of setting up my tracker however I want and not being limited by what is allowed in a given app.  
 
-#### Collect supplemental data   
+#### 2.4 Collect supplemental data   
 To collect supplemental data that is publicly available or open source, you could search for it online and follow data access instructions.  
 
 To collect data from other tracker apps, please refer to their documentation for instructions.   
@@ -144,24 +144,33 @@ These instructions refer to Google Sheets and Forms as of May 2023.
 1. Start a new spreadsheet in Google Sheets  
 1. Create a new form in it  
    - In the top navigation bar of the spreadsheet, go to Tools > Create a new form  
-   - This form will contain your tracker questions
-
+   - This form will contain your tracker questions  
+  <br>
    >##### Example: new Google form   
    ><img src="./img/tracker_qq_setup_illustr_1.png" width="70%" />  
 
 
 1. Design your questionnaire  
    - Decide on the questions to include in your questionnaire  
-   - Guiding questions:  
-     - What data do you want to collect?  
-     - What questions do you want to ask yourself?  
-     - Will you be able to answer these questions regularly? How often would you need to answer them to get meaningful data?  
-   - Think about your user experience with answering these questions on a regular basis  
-     - Are your questions easy enough to answer when you pull them up on your phone? 
-     - A very specific and elaborate question might seem like the best question to capture precisely the data you want, but if it is too much of a hassle for you to answer it regularly, you might end up not collecting any data at all. A simpler question won't offer you the same level of detail, but if it is a question you can easily and consistently answer on a regular basis, then that is the question that will get you the data you need.  
+     - Guiding questions:  
+       - What data do you want to collect?  
+       - What questions do you want to ask yourself?  
+       - Will you be able to answer these questions regularly? How often would you need to answer them to get meaningful data?  
+     - Think about your user experience with answering these questions on a regular basis  
+       - Are your questions easy enough to answer when you pull them up on your phone? 
+       - A very specific and elaborate question might seem like the best question to capture precisely the data you want, but if it is too much of a hassle for you to answer it regularly, you might end up not collecting any data at all. A simpler question won't offer you the same level of detail, but if it is a question you can easily and consistently answer on a regular basis, then that is the question that will get you the data you need.  
    - What format should your answers be in?  
      - Google Forms offer many options for answer format: text, number, date and time, multiple choice, checkboxes, scales and more.  
-     - Make sure you can capture all possible answers to your questions, so that you do not accidentally sway yourself to untrue answers. For example, suppose your question is "How well do you feel today?" and you only provide answer options "good" and "bad" in your questionnaire. Then on days when you feel kind of neutral, meh, or unsure of how you feel, you might accidentally sway yourself toward answering "good" or "bad" just because these are the only options, even though they are not exactly true. This could introduce error and bias to your data, which is bad news for your data analyses. In this example, providing answer options "good", "bad", "neutral", "don't know", and "other" with a write-in option would help capture the data more accurately.  
+     - Make sure you can capture all possible answers to your questions, so that you do not accidentally sway yourself to untrue answers. For example, suppose your question is "How well do you feel today?" and you only provide answer options "good" and "bad" in your questionnaire. Then on days when you feel kind of neutral or unsure of how you feel, you might accidentally sway yourself toward answering "good" or "bad" just because these are the only options, even though they are not exactly true. This could introduce error and bias to your data, which is bad news for your data analyses. In this example, providing answer options "good", "bad", "neutral", "don't know", and "other" with a write-in option would help capture the data more accurately.  
      - Note that it is impossible to fully and absolutely truthfully capture your life/habits experience, or any other phenomenon, through data collection. Data collection is a process where someone observes and records phenomena, and the observational data collected inherits the biases of the observer's perspective. The more biased the data, the more biased and untrustworthy are the findings from analyzing it. We cannot entirely eliminate data bias, but we can and should minimize it and its impact by striving for accurate and truthful data collection and by pausing to assess for potential biases and ethical considerations at every stage of a research project, from ideation and data collection to analyses and the sharing of findings.  
-     
+  - Think about how you will make sure that the data is as accurate, complete and unbiased as possible. 
+     - What should happen if you enter the wrong info, or skip a day in your questionnaire?  
+     - What if you realize that you need to change your questionnaire design, e.g. add or remove a question?  
+  <br>
+   >##### Example: my questionnaire design  
+   > To design my questionnaire, I can start with [my table of the needed supplemental data](https://github.com/33eyes/trackers-analysis/blob/main/02_set_research_questions.md#example-potential-supplemental-data-sources) and build on it by working through the guiding questions above.  
+I did this work in a spreadsheet and split it into [the main survey questions on which I want to collect data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_survey.csv) and [additional questions to help me manage that data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_meta.csv).   
+In those spreadsheets, I went through each of the general needed supplemental data categories and wrote down the questions I want to ask, the format for the answers, how often I'd want to answer those questions, and what it would mean if I didn't answer a question. After that, I grouped the questions that would be easier to answer together into separate trackers (see the last column in the spreadsheets), based on related topics and survey frequency. After that, for each tracker group, I ranked the importance of each question: the most important questions that must be answered as often as possible are ranked 1, and questions that are nice-to-have or optional get ranks of 2 or more.  
+<br>
+Having drafted out my questionnaire design in those spreadsheets, I now know what questions I want to ask, how to format them, how to organize them into tracker surveys, and which questions I should put at the top of the tracker surveys (based on question rank). I am now ready to go ahead and make those trackers in Google Forms.  
 
