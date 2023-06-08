@@ -83,7 +83,7 @@ Here's what these roles mean.
 
 Whether particular data is an explanatory, response or control variable in your research project depends on your research goal/question.  
 
-> #### Example: assessing how my Fitbit data can be used my research project  
+>#### Example: assessing how my Fitbit data can be used my research project  
 > I have the following broad research goal: to understand better how my wellness habits affect how well I feel.  
 >
 > In [my Fitbit data review file](https://github.com/33eyes/trackers-analysis/blob/main/fitbit_tracker_data_review.csv), I've marked physical activity data that captures my walking and exercise habits (e.g., steps, distance, activity level, exercise, etc.) as potential **explanatory variables** in my research project. This data reflects some of my wellness habits, and in this research project, I want to use them to see if they can explain or predict how well I feel.  
@@ -115,7 +115,7 @@ Where can you get the additional data to supplement your health tracker data? He
   - This approach is more manual and cumbersome, but it is also the most customizable. You can start a spreadsheet that tracks your daily answers to any question you want.  
   - You can use Google Forms to set up your own custom personal tracker and fill it out on your smartphone.  
 
-> #### Example: potential supplemental data sources  
+>#### Example: potential supplemental data sources  
 >I am missing the following data needed for my research goal:  
 >analysis role | the needed supplemental data  
 >--- | ---  
@@ -142,16 +142,14 @@ For many people, the easiest way to do it would be by tracking the data on their
 These instructions refer to Google Sheets and Forms as of May 2023.  
 
 1. Start a new spreadsheet in Google Sheets  
-1. Create a new form in it  
+2. Create a new form in it  
    - In the top navigation bar of the spreadsheet, go to Tools > Create a new form  
    - This form will contain your tracker questions  
-   <br>  
 
-   > #### Example: new Google form   
-   ><img src="./img/tracker_qq_setup_illustr_1.png" width="70%" />  
+>#### Example: new Google form   
+><img src="./img/tracker_qq_setup_illustr_1.png" width="70%" />  
 
-
-1. Design your questionnaire  
+3. Design your questionnaire  
    - Decide on the questions to include in your questionnaire  
      - Guiding questions:  
        - What data do you want to collect?  
@@ -168,10 +166,33 @@ These instructions refer to Google Sheets and Forms as of May 2023.
      - What should happen if you enter the wrong info, or skip a day in your questionnaire?  
      - What if you realize that you need to change your questionnaire design, e.g. add or remove a question?  
 
-   > #### Example: my questionnaire design  
-   > To design my questionnaire, I can start with [my table of the needed supplemental data](https://github.com/33eyes/trackers-analysis/blob/main/02_set_research_questions.md#example-potential-supplemental-data-sources) and build on it by working through the guiding questions above.  
-I did this work in a spreadsheet and split it into [the main survey questions on which I want to collect data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_survey.csv) and [additional questions to help me manage that data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_meta.csv).   
-In those spreadsheets, I went through each of the general needed supplemental data categories and wrote down the questions I want to ask, the format for the answers, how often I'd want to answer those questions, and what it would mean if I didn't answer a question. After that, I grouped the questions that would be easier to answer together into separate trackers (see the last column in the spreadsheets), based on related topics and survey frequency. After that, for each tracker group, I ranked the importance of each question: the most important questions that must be answered as often as possible are ranked 1, and questions that are nice-to-have or optional get ranks of 2 or more.  
-> <br>  
->Having drafted out my questionnaire design in those spreadsheets, I now know what questions I want to ask, how to format them, how to organize them into tracker surveys, and which questions I should put at the top of the tracker surveys (based on question rank). I am now ready to go ahead and make those trackers in Google Forms.  
+>#### Example: my questionnaire design  
+>To design my questionnaire, I can start with [my table of the needed supplemental data](https://github.com/33eyes/trackers-analysis/blob/main/02_set_research_questions.md#example-potential-supplemental-data-sources) and build on it by working through the guiding questions above.  
+  >I did this work in a spreadsheet and split it into [the main survey questions on which I want to collect data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_survey.csv) and [additional questions to help me manage that data](https://github.com/33eyes/trackers-analysis/blob/main/custom_health_tracker_questions_meta.csv).  
+>In those spreadsheets, I went through each of the general needed supplemental data categories and wrote down the questions I want to ask, the format for the answers, how often I'd want to answer those questions, and what it would mean if I didn't answer a question. After that, I grouped the questions that would be easier to answer together into separate trackers (see the last column in the spreadsheets), based on related topics and survey frequency. After that, for each tracker group, I ranked the importance of each question: the most important questions that must be answered as often as possible are ranked 1, and questions that are nice-to-have or optional get ranks of 2 or more.  
+
+4. Create your tracker survey(s) in Google Forms  
+Having drafted your questionnaire design, you now should have a pretty good idea of:  
+- what questions you want to ask in your tracker(s)  
+- how you want to format the answers  
+- how you want to organize your questions into tracker surveys  
+- which questions you should put at the top of the tracker surveys (based on your question priority rankings)  
+You are now ready to go ahead and make those tracker surveys in Google Forms.  
+
+>#### Example: my trackers examples in Google Forms  
+>**Physical health tracker example**  
+><img src="./img/phys_health_tracker_illustr_1.png" width="70%" />  
+><img src="./img/phys_health_tracker_illustr_2.png" width="70%" />  
+><img src="./img/phys_health_tracker_illustr_3.png" width="70%" />  
+
+>Mental health tracker example  
+>Activity tracker example  
+>Environment tracker example  
+>Water intake tracker example  
+>Diet tracker example  
+>
+>A few tips on setting up these forms:  
+> - To allow response editing, got to Form Settings and turn on 'allow response editing'.  
+> - To change the form's font, colors or add an image, go to Customize Settings (the palette icon at the top of the webpage, to the left of the eye icon).  
+
 
